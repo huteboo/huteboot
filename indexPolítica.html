@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://huteboots.dudaone.com/pol%C3%ADtica-de-privacidad -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="touch"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style id="customRules"></style><script async="" src="./indexPolítica_files/sp-2.0.0-dm-0.1.min.js"></script><script type="text/javascript">
+    window._currentDevice = 'mobile';
+    window.Parameters = window.Parameters || {
+        AjaxContainer: 'div.dmBody',
+        WrappingContainer: 'div.dmOuter',
+        HomeUrl: 'index.html',
+        AccountUUID: 'bfc85935144645cb9856d349aa222a0a',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: 'b903abf2',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Thu Nov 02 09:37:51 UTC 2023',
+        ExternalUid: null,
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'política-de-privacidad',
+        InitialPageUuid: '56cf6a1ba62f4b3caf6f5f92d9bc9dea',
+        InitialPageId: '26862748',
+        InitialEncodedPageAlias: 'cG9sw610aWNhLWRlLXByaXZhY2lkYWQ=',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '38890',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        NotificationSubDomain: 'huteboots-dudaone',
+        HasCustomDomain: true,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 5,
+            NavbarLiveHomePage: 'index.html',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: false,
+        planID: '7',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 22;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+
+
+
+<link rel="canonical" href="#">
+
+<meta id="view" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Política de privacidad
+</title>
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" type="image/x-icon" href="#">
+
+<!-- End favorite icons -->
+
+<link rel="preconnect" href="https://lirp.cdn-website.com/" crossorigin="">
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if(!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function() {
+            },
+            getCurrentDeviceType: function() {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+<!-- loadCSS function -->
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    cssLinks = null;
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if(link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      }  
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def(){this.promise=new Promise((function(a,b){this.resolve=a,this.reject=b}).bind(this))}
+    const defs={};
+    window.getDeferred=function(a){return null==defs[a]&&(defs[a]=new Def),defs[a]}
+    window.waitForDeferred = function (b, a, c) {
+      let d = window?.getDeferred?.(b);
+      d
+        ? d.promise.then(a)
+        : c && ["complete", "interactive"].includes(document.readyState)
+        ? setTimeout(a, 1)
+        : c
+        ? document.addEventListener("DOMContentLoaded", a)
+        : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}
+</style>
+<style id="cssVariables" type="text/css">
+    :root {
+  --color_1: rgba(84, 98, 89, 1);
+  --color_2: rgba(255, 255, 255, 1);
+  --color_3: rgba(246, 244, 235, 1);
+  --color_4: rgba(86, 86, 86, 1);
+  --color_5: rgba(39, 54, 46, 1);
+  --color_6: rgba(145, 127, 93, 1);
+  --color_7: rgba(0, 0, 0, 1);
+  --color_8: rgba(0, 0, 0, 0);
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function -->
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    cssLinks = null;
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if(link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      }  
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+<link type="text/css" rel="stylesheet" href="./indexPolítica_files/css2">
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-mobile-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="./indexPolítica_files/d-css-runtime-mobile-one-package-structured-global.min.css">
+
+<!-- End of RT CSS Include -->
+
+
+<link type="text/css" rel="stylesheet" href="./indexPolítica_files/95326e1b2bef07820db09fc161cedf95.css" id="widgetCSS">
+
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+  height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>
+  body[data-page-alias="política-de-privacidad"] #dm [data-show-on-page-only="política-de-privacidad"] {
+    display: block !important;
+  }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="./indexPolítica_files/b903abf2_0.min.css" id="siteGlobalCss">
+
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style id="additionalGlobalCss" type="text/css">
+</style>
+
+<style id="pagestyle" type="text/css">
+    *#dm *.dmBody a.span.textonly
+{
+	color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody div.dmform-error
+{
+	font-style:normal !important;
+}
+*#dm *.dmBody div.dmforminput textarea
+{
+	font-style:italic !important;
+}
+*#dm *.dmBody div.dmforminput *.fileUploadLink
+{
+	font-style:italic !important;
+}
+*#dm *.dmBody div.checkboxwrapper span
+{
+	font-style:italic !important;
+}
+*#dm *.dmBody div.radiowrapper span
+{
+	font-style:italic !important;
+}
+*#dm *.dmBody nav.u_1144820115
+{
+	color:black !important;
+}
+*#dm *.dmBody nav.u_1425365191
+{
+	color:black !important;
+}
+
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    *#dm *.dmBody div.u_1243667655{
+margin-left:0 !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+margin-right:0 !important}
+*#dm *.dmBody div.u_1620106714{
+margin-left:0 !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+margin-right:0 !important}
+*#dm *.d-page-1716942098 DIV.dmInner{
+background-repeat:no-repeat !important;
+background-size:cover !important}
+*#dm *.d-page-1716942098 DIV#dmSlideRightNavRight{
+background-repeat:no-repeat !important;
+background-image:none !important;
+background-size:cover !important}
+</style>
+
+<!-- Flex Sections CSS -->
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">
+    .font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+</style>
+
+
+
+
+<style id="fontFallbacks">
+    @font-face {
+  font-family: "Raleway Fallback";
+  src: local('Arial');
+  ascent-override: 89.616%;
+  descent-override: 22.3087%;
+  size-adjust: 104.892%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Roboto Fallback";
+  src: local('Arial');
+  ascent-override: 92.6709%;
+  descent-override: 24.3871%;
+  size-adjust: 100.1106%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Montserrat Fallback";
+  src: local('Arial');
+  ascent-override: 84.9466%;
+  descent-override: 22.0264%;
+  size-adjust: 113.954%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Poppins Fallback";
+  src: local('Arial');
+  ascent-override: 92.326%;
+  descent-override: 30.7753%;
+  line-gap-override: 8.793%;
+  size-adjust: 113.7274%;
+}@font-face {
+  font-family: "Arial Fallback";
+  src: local('Arial');
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Red Rose Fallback";
+  src: local('Arial');
+  ascent-override: 85.631%;
+  descent-override: 28.5132%;
+  size-adjust: 109.423%;
+  line-gap-override: 0%;
+ }
+</style>
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+<script charset="utf-8" src="./indexPolítica_files/16.0513b4f1991dc57589ff.js"></script><script charset="utf-8" src="./indexPolítica_files/21.666c3bff1db5c205bd17.js"></script><script charset="utf-8" src="./indexPolítica_files/2.bb72b5e7f8fd98bc3088.js"></script><script charset="utf-8" src="./indexPolítica_files/8.e862fd7d143f131cc4b5.js"></script><script charset="utf-8" src="./indexPolítica_files/runtime-module-anchors.310620cbfd37cdb290b3.js"></script><script charset="utf-8" src="./indexPolítica_files/4.f27a0e156562c19d3620.js"></script><script charset="utf-8" src="./indexPolítica_files/6.8b139d0692d3b0adc22a.js"></script><script charset="utf-8" src="./indexPolítica_files/9.e228a24d1f2f64462512.js"></script></head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="política-de-privacidad" class="dmRoot dmMobileBody fix-mobile-scrolling addCanvasBorder dmResellerSite mac safariFix responsiveTablet d1SiteBody dmLayoutBody dmBodyNoIscroll fullyLoaded" style="padding:0;margin:0;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class="dmwr">
+    
+    <div class="dm_wrapper mobileHamburgerLayout-var5 null mobileHamburgerLayout">
+         <div dmwrapped="true" id="1901957768" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="mobileHamburgerLayout" class="runtime-module-container dm-bfs dm-layout-sec hasAnimations hasStickyHeader inMiniHeaderMode rows-1200 hamburger-reverse layout-drawer_fixed-header dmPageBody dmFreeHeader d-page-1716942098" style="
+            padding: 10px;
+        " id="dm-outer-wrapper" data-page-class="1716942098" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardMobile"> <div id="site_content"> <div class="p_hfcontainer"> <div id="mobile-hamburger-drawer" class="hamburger-drawer layout-drawer" layout="SHARD2f6afaf4829d0439da1f306a3588ecc88===header" data-origin="top" data-auto-height="true"> <div class="dmRespRow u_1095255299" style="text-align: center;" id="1095255299"> <div class="dmRespColsWrapper" id="1302589508"> <div class="dmRespCol small-12 medium-12 large-12 empty-column" id="1655399183"></div> 
+</div> 
+</div> 
+ <div class="u_1965276944 dmRespRow middleDrawerRow" style="text-align: center;" id="1965276944"> <div class="dmRespColsWrapper" id="1699267621"> <div class="dmRespCol small-12 medium-12 large-12 u_1000796623 content-removed" id="1000796623"> <nav class="u_1013847335 effect-text-color main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_4" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HIDE" id="1013847335" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="https://www.xdggrtty.shop/?hombre_hut" class="unifiednav__item dmUDNavigationItem_01010197927" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="HOMBRE" data-auto="page-text-style">HOMBRE<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="https://www.xdggrtty.shop/?mujer_hut" class="unifiednav__item dmUDNavigationItem_010101483526" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="MUJER" data-auto="page-text-style">MUJER<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0"> <a href="https://www.xdggrtty.shop/?ninos_hut" class="unifiednav__item dmUDNavigationItem_010101191792" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="NIÑO" data-auto="page-text-style">NIÑO<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1686669531" style="text-align: center;" id="1686669531"> <div class="dmRespColsWrapper" id="1649922952"> <div class="dmRespCol small-12 medium-12 large-12 empty-column" id="1716445398"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="layout-drawer-overlay" id="layout-drawer-overlay"></div> 
+</div> 
+ <div class="site_content"> <div id="hamburger-header-container" class="hamburger-header-container p_hfcontainer"> <div id="mobile-hamburger-header" class="hamburger-header p_hfcontainer" layout="SHARD2837ce1cb59c8431ea7fd0dcd9b0a381f===header"> <div class="dmRespRow dmDefaultListContentRow u_1363416357 fullBleedChanged fullBleedMode" style="text-align:center" id="1363416357" mode="2"> <div class="dmRespColsWrapper" id="1622277080"> <div class="u_1385492417 dmRespCol medium-6 large-6 small-2 empty-column" id="1385492417"></div> 
+ <div class="u_1883390201 dmRespCol medium-6 large-6 small-10" id="1883390201"> <div class="u_1088150707 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1088150707" editablewidget="true"> <a href="index.html" id="1278404454"><img src="./indexPolítica_files/LOGO-640w.png" id="1631585088" class="" data-dm-image-path="https://irp.cdn-website.com/b903abf2/dms3rep/multi/LOGO.png" width="210" height="75" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_política-de-privacidad dm-home-page" themewaschanged="true"> <div id="allWrapper" class="allWrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent"> <div dm:templateorder="170" class="dmHomeRespTmpl mainBorder dmRespRowsWrapper dmFullRowRespTmpl dmRespRowsWrapperSize1" id="1716942098"> <div class="u_1243667655 dmRespRow" style="text-align: center;margin: 0 auto!important;" id="1243667655"> <div class="dmRespColsWrapper" id="1173148036"> <div class="dmRespCol small-12 u_1620106714 medium-12 large-12" id="1620106714"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1063540191" style="transition: opacity 1s ease-in-out 0s;"><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">POLÍTICA DE PRIVACIDAD</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">NUESTRA POLÍTICA DE PRIVACIDAD DE UN VISTAZO</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">1. ¿QUIÉNES SOMOS? Somos Flycoapaches, F.C y tratamos tus datos</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">personales como Responsable del tratamiento. Esto quiere decir que nos hacemos cargo</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">de cómo usar y proteger tus datos. Ver más.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">2. ¿PARA QUÉ USAMOS TUS DATOS? Usaremos tus datos (obtenidos</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">online o en persona), entre otras finalidades, para gestionar tu registro como usuario,</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">gestionar la compra de productos o servicios, atender tus consultas así como para, en</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">caso de que lo desees, enviarte nuestras comunicaciones personalizadas. Ver más.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">3. ¿POR QUÉ LOS USAMOS? Estamos legitimados para tratar tus datos por</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">diferentes motivos. El principal, es que necesitamos tratarlos para ejecutar el contrato que</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">aceptas con nosotros al registrarte y al hacer una compra o disfrutar de alguno de nuestros</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">servicios o funcionalidades. También usamos tus datos por otras razones, por ejemplo,</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">para atender tus consultas o para enviarte newsletters que nos has solicitado recibir. Ver</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">más.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">4. ¿CON QUIÉN COMPARTIMOS TUS DATOS? Compartiremos tus</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">datos con prestadores de servicios que nos ayudan o dan soporte, ya sean empresas del</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">propio Grupo Flycoapaches o colaboradores externos con quien hemos llegado a un acuerdo. Ver</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">más.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">5. TUS DERECHOS. Tienes derecho a acceder, rectificar o suprimir tus datos</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">personales. En algunos casos, también tienes otros derechos, por ejemplo, a oponerte a</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">que usemos tus datos o a portarlos, como te explicamos en detalle más abajo. Ver más.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">Te invitamos a leer nuestra Política de Privacidad completa a continuación para entender en</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">detalle el uso que haremos de tus datos personales y los derechos de los que dispones en</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">relación con los mismos.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">ANTES DE EMPEZAR…</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">• En esta Política de Privacidad encontrarás toda la información relevante que aplica al uso que</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">hacemos de los datos personales de nuestros clientes y usuarios, con independencia del canal o medio</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">(online o en persona) que utilices para interactuar con nosotros.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">• Si deseas información sobre cómo utilizamos las cookies y otros dispositivos similares que puedan estar</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">instalados en los terminales de nuestros clientes y usuarios, te recomendamos que consultes la Política</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">de Privacidad.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">• Somos transparentes sobre lo que hacemos con tus datos personales, para que entiendas las</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">implicaciones de los usos que llevamos a cabo o los derechos de los que dispones en relación con tus</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">datos:</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">o Ponemos a tu disposición de forma permanente toda la información en esta Política de</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">Privacidad que puedes consultar cuando lo estimes oportuno y además,</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">o también irás encontrando información acerca de cada tratamiento de tus datos personales</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">conforme vayas interactuando con nosotros.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">• Algunos nombres que usaremos en esta Política de Privacidad y Cookies:</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">o Cuando hablamos de nuestra Plataforma, nos referiremos en general a cualquiera de los canales</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">o medios digitales o en persona que hayas utilizado para interactuar con nosotros. Los principales</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">son:</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">▪ Nuestra Web.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">▪ Nuestra App, es decir, tanto la aplicación móvil que te hayas instalado en tu dispositivo</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">como las que podamos utilizar en nuestra Plataforma.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">6. ¿QUÉ PASA SI NOS FACILITAS DATOS DE TERCEROS O SI UN TERCERO NOS HA FACILITADO DATOS TUYOS?</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">Ofrecemos funcionalidades o servicios que requieren que tratemos los datos personales de un tercero que tú,</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">como usuario o como cliente, nos facilites, como para la activación y envío de la Tarjeta Regalo o la gestión de la</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">solicitud del Ticket Regalo (donde estas funciones estén disponibles) o cuando autorizas a un tercero a recoger un</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">pedido en nuestras tiendas o establecimientos asociados. Si nos proporcionas datos personales de terceras</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">personas o si resulta necesario que se los solicitemos para recoger un pedido en tu nombre, garantizas haberles</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">informado acerca de las finalidades y la forma en la que necesitamos tratar sus datos personales.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">Si un tercero nos ha facilitado tus datos o los has aportado tú mismo como consecuencia de una funcionalidad o</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">servicio solicitado por uno de nuestros usuarios, los usaremos para gestionar la funcionalidad o servicio que se</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">esté desarrollando en cada caso, dentro de las finalidades recogidas en esta Política de Privacidad y Cookies,</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">cuyo enlace incluimos habitualmente en nuestras comunicaciones.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">7. CAMBIOS A LA POLÍTICA DE PRIVACIDAD Y COOKIES</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">Es posible que modifiquemos la información contenida en esta Política de Privacidad cuando lo estimemos</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">conveniente. En caso de que lo hagamos, te lo notificaremos por distintas vías a través de la Plataforma (por</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">ejemplo, a través de un banner, un pop-up o una notificación push), o incluso te lo comunicaremos a tu dirección</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">de correo electrónico cuando el cambio en cuestión sea significativo para con tu privacidad, de manera que puedas</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">revisar los cambios, valorarlos y, en su caso, oponerte o darte de baja en algún servicio o funcionalidad. En</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">cualquier caso, te sugerimos que revises esta Política de Privacidad de vez en cuando por si hubiera cambios</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">menores o introducimos alguna mejora interactiva, aprovechando que siempre la encontrarás como punto</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">permanente de información en nuestra Web y nuestra App.</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">8. INFORMACIÓN SOBRE COOKIES</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;"><br></span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">Utilizamos cookies y dispositivos similares para facilitar tu navegación en la Plataforma, conocer cómo interactúas</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">con Nosotros y, en determinados casos, poder mostrarte publicidad en función de tus hábitos de navegación. Por</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">favor, lee nuestra Política de Cookies para conocer con mayor detalle las cookies y dispositivos similares que</span></p><p><span style="color:var(--color_7);display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">usamos, su finalidad y cómo gestionar tus preferencias, así como otra información de interés.</span></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="sticky-widgets-container-global" id="1849491624"></div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="dmRespRow u_1686074934" id="1686074934"> <div class="dmRespColsWrapper" id="1104316095"> <div class="dmRespCol large-4 medium-4 small-12" id="1500888253"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1289851089" style="transition: opacity 1s ease-in-out 0s;"><p><span style="text-transform:uppercase;color:var(--color_7);font-weight:700;display:unset;font-family:Arial, &#39;Arial Fallback&#39;;">AYUDA</span></p></div> 
+ <div class="dmDividerWrapper clearfix u_1002230802" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1002230802"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1024824225"></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1285272473" style="transition: opacity 1s ease-in-out 0s;"><p class="m-size-11 size-14" style="letter-spacing: 1px; line-height: 2;"><a href="indexcookies.html" runtime_url="/política-de-cookies" type="page" class="font-size-14 m-font-size-11" style="color:var(--color_7);text-decoration:none;display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">Política de cookies</a></p><p class="m-size-11 size-14" style="letter-spacing: 1px; line-height: 2;"><a href="#" runtime_url="/política-de-privacidad" type="page" class="font-size-14 m-font-size-11" style="color:var(--color_7);text-decoration:none;display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">Política de privacidad</a></p><p class="m-size-11 size-14" style="letter-spacing: 1px; line-height: 2;"><a href="indexcondiciones.html" runtime_url="/términos-y-condiciones" type="page" class="font-size-14 m-font-size-11" style="color:var(--color_7);text-decoration:none;display:initial;font-family:Arial, &#39;Arial Fallback&#39;;">Términos y condiciones</a></p></div> 
+</div> 
+ <div class="dmRespCol large-4 medium-4 small-12" id="1027630521"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1589030715" style="transition: opacity 1s ease-in-out 0s;"><p><span style="text-transform:uppercase;color:var(--color_7);font-weight:700;display:unset;font-family:Arial, &#39;Arial Fallback&#39;;">CLASIFICAR</span></p></div> 
+ <div class="dmDividerWrapper clearfix u_1897940892" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1897940892"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1070577684"></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1675890810" style="transition: opacity 1s ease-in-out 0s;"><p class="m-size-11 size-14" style="line-height: 2; letter-spacing: 1px;"><a href="indexhombre.html" runtime_url="/hombre" type="page" class="m-font-size-11 font-size-14" style="color:var(--color_7);display:unset;text-decoration:none;font-family:Arial, &#39;Arial Fallback&#39;;">Hombre</a></p><p class="m-size-11 size-14" style="line-height: 2; letter-spacing: 1px;"><a href="indexmujer.html" runtime_url="/mujer" type="page" class="m-font-size-11 font-size-14" style="color:var(--color_7);display:unset;text-decoration:none;font-family:Arial, &#39;Arial Fallback&#39;;">Mujer</a></p><p class="m-size-11 size-14" style="line-height: 2; letter-spacing: 1px;"><a href="indexnino.html" runtime_url="/niño" type="page" class="m-font-size-11 font-size-14" style="color:var(--color_7);display:unset;text-decoration:none;font-family:Arial, &#39;Arial Fallback&#39;;">Niño</a><span style="display: initial;"><br></span></p></div> 
+</div> 
+ <div class="dmRespCol large-4 medium-4 small-12" id="1058320109"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1809497445" style="transition: opacity 1s ease-in-out 0s;"><p><span style="text-transform:uppercase;color:var(--color_7);font-weight:700;display:unset;font-family:Arial, &#39;Arial Fallback&#39;;">SUSCRIBIRSE</span></p></div> 
+ <div class="dmDividerWrapper clearfix u_1941143868" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1941143868"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1645275770"></div> 
+ <div class="u_1716652137 align-center text-align-center dmSocialHub" id="1716652137" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Facebook&#39;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="http://instagram.com/" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Instagram&#39;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://youtube.com/" target="_blank" dm_dont_rewrite_url="true" aria-label="youtube" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Youtube&#39;)"> <span class="dmSocialYoutube dm-social-icons-youtube oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="http://pinterest.com/" target="_blank" dm_dont_rewrite_url="true" aria-label="pinterest" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Pinterest&#39;)"> <span class="dmSocialPinterest icon-pinterest oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1482352408 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1482352408" editablewidget="true"><img src="./indexPolítica_files/RapidSSL_SEAL.gif" alt="" id="1243475127" class="" data-dm-image-path="https://irp.cdn-website.com/b903abf2/dms3rep/multi/RapidSSL_SEAL.gif" width="90" height="50" onerror="handleImageLoadError(this)"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1358202978"> <div class="dmRespColsWrapper" id="1460992451"> <div class="dmRespCol large-12 medium-12 small-12" id="1087076453"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1515764502" style="transition: opacity 1s ease-in-out 0s;"><p class="size-14 m-size-11 text-align-center"><span style="color:var(--color_7);display:unset;font-family:Arial, &#39;Arial Fallback&#39;;" class="font-size-14 m-font-size-11">Copyright © 2023. Todos los derechos reservados.</span></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="layout-drawer-hamburger hamburger-on-header" id="layout-drawer-hamburger" role="button" aria-label="menu opener" tabindex="0"> <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+</div> 
+ <a class="dmBackToTop" id="dmBackToTop" aria-label="Scroll to top" href="https://huteboots.dudaone.com/pol%C3%ADtica-de-privacidad#dmContent" style="opacity: 1; visibility: visible;"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH"
+    window.isSitePreview = false;
+</script>
+<script type="text/javascript">
+
+    var d_version = "production_3891";
+    var build = "2023-11-02T11_49_20";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2023-11-02T11_49_20";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+
+<!-- Load jQuery -->
+    <script type="text/javascript" id="d-js-jquery" src="./indexPolítica_files/jquery-3.7.0.min.js"></script>
+    <!-- End Load jQuery -->
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+    window.jQuery.migrateMute = true;
+</script>
+<script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id="d-js-params">
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "mobile";
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.opencage.token"] = '319e14f32bcce967ba55cd263478796d';
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/3891';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static.cdn-website.com';
+    rtCommonProps["common.resources.folder"] = 'https://static.cdn-website.com/mnlt/production/3891';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.photoswipe.fix"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.respectCssAnimationProps.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["feature.flag.addTargetBlankToExternalLinks"] =true;
+    rtCommonProps["unsuspendEcwidStoreOnRuntime.enabled"] =true;
+    rtCommonProps["keyboard.navigation.enabled"] =true;
+    rtCommonProps["scripts.widgetCount.enabled"] =true;
+    rtCommonProps["run.imageCount.script.enabled"] =false;
+    rtCommonProps["maps.cookiebot.enabled"] =true;
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'here';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://lirp.cdn-website.com/';
+    rtCommonProps["ecom.ecwid.categoryPage.modifyLinks"] = true;
+    rtCommonProps["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtCommonProps["facebook.api.version"] = '7.0';
+    rtCommonProps["feature.flag.photo.gallery.exact.size"] =false;
+    rtCommonProps["new.store.fix.ecwid.back.bug"] =true;
+    rtCommonProps["new.store.accountPage.ecwid.resetPassword.fix"] =true;
+    rtCommonProps["site.runtime.video.background.ssr"] =true;
+    rtCommonProps["geocode.search.localize"] =false;
+    rtCommonProps["facebook.runtime.widgets.upgrade"] =true;
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtCommonProps["feature.flag.performance.logs"] =true;
+    rtCommonProps["site.contact.form.fix.for.attribute"] =true;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["contact.form.date.format.enabled"] = true;
+    rtCommonProps["filestack.uploadToTempBucket.enabled"] = true;
+    rtCommonProps["platform.monolith.loginBar.getUserLoggedIn.enabled"] = true;
+    rtCommonProps["platform.monolith.loginBar.layout.enabled"] = true;
+</script>
+<script src="./indexPolítica_files/d-js-one-runtime-unified-mobile.min.js" id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script src="./indexPolítica_files/d-js-jquery-migrate.min.js"></script>
+<script>jQuery.DM.updateWidthAndHeight();
+$(window).resize(function () {
+    
+});
+$(window).bind("orientationchange", function (e) {
+    $.layoutManager.initLayout();
+    
+});
+$(document).resize(function () {
+    
+});
+</script>
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript">
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+  
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: 'b903abf2'
+});
+
+dmsnowplow('trackPageView')
+$.each(_dm_insite, function(idx, rule) {
+	//('trackStructEvent', 'category','action','label','property','value');
+			// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+	        // the tracking is in popup.js
+			if (rule.actionName !== "popup") {
+                dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+            }
+ 			$(document).ready(function(){
+ 				$.DM.events.trigger('event-ruleTriggered', {value: rule})}
+ 			);
+ 		});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root" data-locale="en"></div>
+<!-- Alias: b903abf2 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+// Collects client data and updates cookies used by smart sites
+var expireDays = 365,visitLength = 30 * 60000;
+$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), expireDays);
+function setSmartSiteCookies() {
+	setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+}
+$.DM.events.on("afterAjax", setSmartSiteCookies);
+setSmartSiteCookies();
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<script>
+    jQuery(window).on('load', function () {
+        try {
+            jQuery.DM.updateIOSHeight();
+        } catch (e) {
+        }
+    });
+</script>
+<script>
+    dmAPI.loadScript(
+        window.rtCommonProps['common.resources.cdn.host'] + '/libs/lozad/1.15.0/lozad.min.js',
+        function () {
+            dmAPI.runOnReady('lozadInit', function () {
+                window.document.querySelectorAll('img.lazy').forEach(function (img) {
+                    img.addEventListener('load', function (event) {
+                        var img = event.target;
+                        img.style.filter = 'blur(0)';
+                        setTimeout(function () {
+                            $(img).closest('.imageWidget').addClass('lazyLoaded');
+                        }, 250)
+                    });
+                });
+                lozad('.lazy', {
+                    threshold: 0.1,
+                    loaded: function (element) {
+                        if (element.getAttribute('data-background-image')) {
+                            element.style.setProperty(
+                                'background-image',
+                                "url('" + element.getAttribute('data-background-image') + "')",
+                                "important"
+                            );
+                        }
+                    }
+                }).observe();
+            });
+        }
+    );
+</script>
+<!--  End Script tags -->
+
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+
+
+</body></html>
